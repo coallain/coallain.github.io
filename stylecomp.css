@@ -1,0 +1,111 @@
+
+a{
+    text-decoration: none;
+    margin-left: 125px;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    font-weight: bold;
+    
+}
+
+p,h4,ul{
+    font-family: "Montserrat", sans-serif;
+}
+
+h3{
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: 28px;
+}
+
+main{
+    background-color: rgb(253, 243, 255);
+    margin:0 125px 0 125px;
+    padding-top: 65px;
+}
+
+main>h3{
+    text-align: center;
+    border-color: black;
+    border-width: 0 0 2px 2px;
+}
+
+.competences{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 55px 0 55px;
+    margin-bottom: 100px;
+}
+
+.competences>a>div{
+    background-color: rgb(233, 208, 255);
+    width: 250px;
+    height: 125px;
+    border-radius: 7px;
+    margin: 10px 10px 10px 10px ;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.competences>a>div:hover{
+    background-color: rgb(167, 245, 219);
+    width: 254px;
+    height: 128px;
+    transition:all 0.3s ease;
+    cursor:pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+main>div{
+    background-color:rgb(166, 241, 216) ;
+    border-radius: 8px;
+    margin: 0 115px 30px 115px;
+    padding-bottom: 2px;
+}
+main>div>h3{
+    margin: 10px 10px 5px 10px;
+}
+main>div>p{
+    margin: 5px 10px 10px 10px;
+}
+
+.bloc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloc>div{
+    width: 375px;
+    height: 535px;
+    margin:0 3% 0 3% ;
+}
+
+
+.bloc>div>p{
+    margin: 15px;
+}
+
+.bloc>div>h3{
+    margin:15px;
+    padding:5px 5px 5px 10px;
+    border-radius: 8px;
+    background-color: rgb(233, 208, 255);
+}
+
+.selection{
+    background-color: rgb(217, 180, 249);
+    cursor:default;
+}
