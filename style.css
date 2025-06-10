@@ -84,20 +84,25 @@ main{
     margin: 40px 0 60px 0;
 }
 
-input{
+.cv>a{
     background-color: rgb(179, 255, 230);
     border-radius: 7px;
     width: 190px;
     height: 40px;
     border: none;
     font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
-input:hover{
+.cv>a:hover{
     background-color:rgb(97, 239, 192) ;
     cursor: pointer;
-    
 }
+
 
 .parcours{
     display: flex;
@@ -123,10 +128,13 @@ input:hover{
     margin: 10px 0 0 10px;
 }
 
+.parcours>div>a{
+    margin: 5px 10px 10px 10px;
+    font-family: "Montserrat", sans-serif;
+}
 .parcours>div>p{
     margin: 5px 10px 10px 10px;
 }
-
 hr {
   border: none;
   border-top: 1px solid #333;

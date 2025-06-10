@@ -22,16 +22,68 @@ h3{
     font-size: 28px;
 }
 
+
 main{
     background-color: rgb(253, 243, 255);
     margin:0 125px 0 125px;
-    padding-top: 65px;
+    padding-top: 100px;
 }
 
 main>h3{
     text-align: center;
     border-color: black;
     border-width: 0 0 2px 2px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+main>div{
+    background-color:rgb(166, 241, 216) ;
+    border-radius: 8px;
+    margin: 0 115px 30px 115px;
+    padding-bottom: 2px;
+}
+main>div>h3{
+    margin: 10px 10px 5px 10px;
+}
+main>div>p{
+    margin: 5px 10px 10px 10px;
+}
+
+.bloc{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.bloc>div{
+    width: 375px;
+    height: 535px;
+    margin:0 3% 0 3% ;
+}
+
+
+.bloc>div>p{
+    margin: 15px;
+}
+
+.bloc>div>h3{
+    margin:15px;
+    padding:5px 5px 5px 10px;
+    border-radius: 8px;
+    background-color: rgb(233, 208, 255);
+}
+
+
+.competences>a{
+    margin-left: 0;
 }
 
 .competences{
@@ -61,51 +113,12 @@ main>h3{
     cursor:pointer;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+.competences a.selection >div{
+    background-color: rgb(167, 245, 219);
+    width: 254px;
+    height: 128px;
 }
 
-
-
-main>div{
-    background-color:rgb(166, 241, 216) ;
-    border-radius: 8px;
-    margin: 0 115px 30px 115px;
-    padding-bottom: 2px;
-}
-main>div>h3{
-    margin: 10px 10px 5px 10px;
-}
-main>div>p{
-    margin: 5px 10px 10px 10px;
-}
-
-.bloc{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bloc>div{
-    width: 375px;
-    height: 535px;
-    margin:0 3% 0 3% ;
-}
-
-
-.bloc>div>p{
-    margin: 15px;
-}
-
-.bloc>div>h3{
-    margin:15px;
-    padding:5px 5px 5px 10px;
-    border-radius: 8px;
-    background-color: rgb(233, 208, 255);
-}
-
-.selection{
-    background-color: rgb(217, 180, 249);
+.competences a.selection >div:hover{
     cursor:default;
 }
